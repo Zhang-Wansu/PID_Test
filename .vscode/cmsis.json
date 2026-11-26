@@ -1,0 +1,12 @@
+{
+    "targetSet": {
+        "MDK-ARM/CAN_Test": {
+            "activeTargetType": "CAN_Test"
+        },
+        "MDK-ARM/PID_Test": {
+            "activeTargetType": "PID_Test"
+        }
+    },
+    "activeSolution": "../MDK-ARM/PID_Test.csolution.yml",
+    "activeTarget": "PID_Test"
+}

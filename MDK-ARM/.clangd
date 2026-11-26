@@ -1,0 +1,10 @@
+CompileFlags:
+  CompilationDatabase: c:\Users\zhangwansu\Desktop\PID_Test\PID_Test\MDK-ARM\out\PID_Test\PID_Test
+
+---
+If:
+  PathMatch: .*\.(c|C|h)$
+CompileFlags:
+  Add:
+    - -include
+    - c:\Users\zhangwansu\Desktop\PID_Test\PID_Test\MDK-ARM\out\PID_Test\PID_Test\compile_macros_c.h

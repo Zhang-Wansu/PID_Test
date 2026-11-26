@@ -1,0 +1,17 @@
+build-idx:
+  generated-by: csolution version 2.16.1+p1-g25e5e3af
+  target: PID_Test
+  csolution: PID_Test.csolution.yml
+  cbuild-run: out/PID_Test+PID_Test.cbuild-run.yml
+  tmpdir: tmp/PID_Test/default
+  cprojects:
+    - cproject: PID_Test.cproject.yml
+  cbuilds:
+    - cbuild: out/PID_Test/PID_Test/PID_Test+PID_Test.cbuild.yml
+      project: PID_Test
+      configuration: +PID_Test
+      messages:
+        info:
+          - PID_Test.cbuild-pack.yml - file is already up-to-date
+          - PID_Test+PID_Test.cbuild-run.yml - file generated successfully
+          - PID_Test+PID_Test.cbuild.yml - file is already up-to-date
